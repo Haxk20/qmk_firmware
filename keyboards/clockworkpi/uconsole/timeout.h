@@ -1,5 +1,8 @@
 #pragma once
 
+#include <stdint.h>
+#include <stdbool.h>
+
 #define CUTOFF_MS 1000
 
 typedef uint16_t timeout_t ;

@@ -330,7 +330,7 @@ uint8_t matrix_scan(void) {
     matrix_row_t curr_matrix[MATRIX_ROWS] = {0};
 
 #if defined(DIRECT_PINS)
-    for (uint8_t current_row = 0; current_row < ROWS_PER_HAND; current_row++) {
+    for (uint8_t current_row = 0; current_row < MATRIX_ROWS_PER_HAND; current_row++) {
         direct_read_cols_on_row(curr_matrix, current_row);
     }
 #endif
