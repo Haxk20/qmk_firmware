@@ -19,7 +19,7 @@
     },
     "backlight": {
       "pin": "A8",
-      "levels": 3
+      "levels": 2
     },
     "build": {
         "debounce_type": "asym_eager_defer_pk"
