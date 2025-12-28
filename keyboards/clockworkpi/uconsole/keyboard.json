@@ -54,8 +54,8 @@
     "url": "https://clockworkpi.com/uconsole",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0000",
-        "vid": "0xFEED"
+        "pid": "0x6375",
+        "vid": "0x6C63"
     },
     "layouts": {
         "LAYOUT": {
